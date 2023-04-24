@@ -7,7 +7,7 @@ function encode(a, b) {
     
      intermediatePaddingX = x.toString(16).padStart(16, "0").padEnd(32, "0")
     intermediatePaddingY = y.toString(16).padStart(16, "0").padEnd(32, "0")
-    // This implements a very naive encoding of x and y
+    
     
         
     return "0x" + intermediatePaddingX + intermediatePaddingY;
